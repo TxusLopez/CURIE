@@ -13,7 +13,7 @@ All datasets have been uploaded to Harvard Dataverse repository: https://dataver
 -------------
 EXPERIMENTS
 -------------
-All the experiments can be performed with the file "curie.py". Here, we can select:
+All the experiments can be performed with the file "curie_def.py". Here, we can select:
 
 - Datasets and types with the variables "datasets" and "tipos" respectively.
 - CURIE parameters: bins_margin,mutation_period,num_mutantneighs_fordetection,preparatory_size,sliding_window_size,radius, and n_bins.

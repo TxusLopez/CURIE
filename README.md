@@ -3,7 +3,7 @@
 ---------
 RESULTS
 ---------
-Detailed results are available in "res.xlsx" file. The first tab corresponds to those experiments referred as F1 in the paper. The second tab corresponds to those experiments referred as F2 in the paper. The last tab is a mean of F1 and F2 experiments, and can be considered as final results, which have been presented in the paper in Table 2.
+The original results are given in O_R_1.xlsx and  O_R_2.xlsx,  which  correspond  to  the  original results  for  the  order  functions F1 and F2 respectively. At the beginning  of these resources, a complete table compiles the results of the experiments. Each detector is hybridized with the base learners and tested over 20 datasets (10 in O_R_1.xlsx and 10 in O_R_2.xlsx). The whole set of metrics is presented: prequential accuracy (pACC), RAM−Hours, true  positives (TP), false positives (FP), true negatives (TN), false  negatives(FN), distance to the drift (μD), precision, recall, MCC, and non-detection rate (ND). The ranking of pACC, RAM−Hours, μD , MCC, and ND is provided for every experiment. At the end of the resources, 6 summarizing tables are shown. On the left, the “F  global  rank”  shows  the  mean  rank  of  detectors,  while  “F global results”  shows the  mean  and  standard  deviation  of  the  metrics.  On  the right, these tables (“F abrupt rank”, “F gradual rank”, “F abrupt results”, and “F  gradual  results”)  detail  the  mean  ranks  and  metrics  for  abrupt  and  gradualdatasets. Finally, the O_R_3.xlsx shows the means results.
 
 -------------
 DATASETS

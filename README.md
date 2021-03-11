@@ -1,4 +1,6 @@
 # CURIE
+Data stream mining extracts information from large quantities of data flowing fast and continuously (data streams). They are usually affected by changes in the data distribution, giving rise to a phenomenon referred to as concept drift. Thus, learning models must detect and adapt to such changes, so as to exhibit a good predictive performance after a drift has occurred. In this regard, the development of effective drift detection algorithms becomes a key factor in data stream mining. In this work we propose CURIE, a drift detector relying on cellular automata. Specifically, in CURIE the distribution of the data stream is represented in the grid of a cellular automata, whose neighborhood rule can then be utilized to detect possible distribution changes over the stream. Computer simulations are presented and discussed to show that CURIE, when hybridized with other base learners, renders a competitive behavior in terms of detection metrics and classification accuracy. CURIE is compared with well-established drift detectors over synthetic datasets with varying drift characteristics.
+
 ![curie](https://user-images.githubusercontent.com/12085263/110760699-42392280-824f-11eb-9f27-0920b8ffb7b5.png)
 
 ---------

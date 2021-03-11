@@ -1,6 +1,5 @@
 # CURIE
 
-![curie](https://user-images.githubusercontent.com/12085263/110760141-ad362980-824e-11eb-8ff7-7bbe2fee9b03.png)
 
 ---------
 RESULTS

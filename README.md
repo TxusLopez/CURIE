@@ -16,6 +16,7 @@ All datasets have been uploaded to Harvard Dataverse repository: https://dataver
 - With "Sea" generator: it is ruled by a sequence of classification functions. "Sea_A" refers to abrupt cases and "Sea_G" to gradual ones. In the case of "Sea_F1", the order of the functions is 0-1-2-3. For "Sea_F2" the order is reversed 3-2-1-0. Therefore, "Sea" stream generator provides 4 different datasets: "Sea_A_F1", "Sea_A_F2", "Sea_G_F1",and "Sea_G_F2". They consist of 3 numerical features, a balanced binary class, andwith the probability that noise will happen in the generation of 0.2 (probability range between 0 and 1).
 - With "Stagger" generator: it is ruled by a sequence of classification functions. "Stagger_A" refers to abrupt cases and "Stagger_G" to gradual ones. In the case of "Stagger_F1", the order of the functions is 0-1-2-0. For "Stagger_F2" the order is reversed 2-1-0-2.  Therefore, "Stagger" stream generator provides 4  different datasets: "Stagger_A_F1", "Stagger_A_F2", "Stagger_G_F1", and "Stagger_G_F2". They consist of 3 numerical features without noise, and a balanced binary class.
 
+Datasets are available at Harvard Dataverse: https://dataverse.harvard.edu/dataset.xhtml;jsessionid=d1f349492e6292cd331e7fb10b70?persistentId=doi:10.7910/DVN/5OWRGB
 
 -------------
 EXPERIMENTS
@@ -35,6 +36,31 @@ All the experiments can be performed with the file "curie_def.py". Here, we can 
 - Finally, Friedman and Nemenyi tests can be performed with the corresponding results for each metric (prequential accuracy, RAM-Hours, distance to the drift, and MCC).
 
 --------------------
-CURIE source code
+SOURCE CODE
 --------------------
 The source code for CURIE can be found in the file "CA_VonNeumann_estimator.py".
+
+-----------
+CITATION
+-----------
+Please, if you use these resources, make a citation of this work:
+
+@article{lobo2020curie,
+  title={CURIE: A Cellular Automaton for Concept Drift Detection},
+  author={Lobo, Jesus L and Del Ser, Javier and Osaba, Eneko and Bifet, Albert and Herrera, Francisco},
+  journal={arXiv preprint arXiv:2009.09677},
+  year={2020}
+}
+
+And for the dataset citation:
+
+@data{DVN/5OWRGB_2020,
+author = {López Lobo, Jesús},
+publisher = {Harvard Dataverse},
+title = {{Synthetic datasets for concept drift detection purposes}},
+UNF = {UNF:6:VVTBgRNMEV+B/GmoE3Myng==},
+year = {2020},
+version = {V1},
+doi = {10.7910/DVN/5OWRGB},
+url = {https://doi.org/10.7910/DVN/5OWRGB}
+}

@@ -36,7 +36,7 @@ All the experiments can be performed with the file "curie_def.py". Here, we can 
 - The variable "learners_ref" for all the base learners.
 - The results are stored in different variables for scores (prequential accuracy), times and rams for calculating RAM-Hours metric, and detections.
 - These results are then stored in a "temp.csv"
-- Finally, Friedman and Nemenyi tests can be performed with the corresponding results for each metric (prequential accuracy, RAM-Hours, distance to the drift, and MCC).
+- Finally, Friedman and Nemenyi tests can be performed with the corresponding results for each metric (prequential accuracy, RAM-Hours, distance to the drift, MCC, and ND).
 
 --------------------
 SOURCE CODE

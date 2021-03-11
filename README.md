@@ -1,5 +1,7 @@
 # CURIE
 
+![alt text](https://github.com/TxusLopez/CURIE/edit/master/curie.png?raw=true)
+
 ---------
 RESULTS
 ---------

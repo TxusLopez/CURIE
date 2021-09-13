@@ -48,11 +48,13 @@ CITATION
 -----------
 Please, if you use these resources, make a citation of this work:
 
-@article{lobo2020curie,
-  title={CURIE: A Cellular Automaton for Concept Drift Detection},
+@article{lobo2021curie,
+  title={Curie: a cellular automaton for concept drift detection},
   author={Lobo, Jesus L and Del Ser, Javier and Osaba, Eneko and Bifet, Albert and Herrera, Francisco},
-  journal={arXiv preprint arXiv:2009.09677},
-  year={2020}
+  journal={Data Mining and Knowledge Discovery},
+  pages={1--24},
+  year={2021},
+  publisher={Springer}
 }
 
 And for the dataset citation:
